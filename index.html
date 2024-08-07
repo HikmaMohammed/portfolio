@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hikma Mohammed - Frontend Developer Portfolio</title>
+    <script src="images/3.4.5"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'deep-blue': '#0A192F',
+                        'light-blue': '#112240',
+                        'cyan': '#2DD4BF',
+                        'text-gray': '#8892B0'
+                    },
+                    fontFamily: {
+                        'poppins': ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #0A192F;
+        }
+        .glow-on-hover:hover {
+            box-shadow: 0 0 15px #2DD4BF;
+        }
+        
+    </style>
+</head>
+<body class="font-poppins text-white">
+    <div class="container mx-auto px-4 max-w-6xl">
+        <!-- Header -->
+        <header class="py-6 flex justify-between items-center">
+            <div class="text-cyan text-xl font-bold">Portfolio</div>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="text-cyan">Home</a></li>
+                    <li><a href="#About" class="text-cyan">About</a></li>
+                    <li><a href="#Services" class="text-cyan">Services</a></li>
+                    <li><a href="#Contacts" class="text-cyan">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="py-20 flex justify-between items-center">
+            <div class="w-1/2">
+                <h1 class="text-4xl font-bold mb-2">Hello It's Me</h1>
+                <h2 class="text-5xl font-bold mb-4 ">Hikma Mohammed</h2>
+                <p class="text-xl mb-6">And I'm a <span class="text-cyan">Frontend Developer</span></p>
+                <p class="text-text-gray mb-8 max-w-lg">Hikma Mohammed, a dedicated and innovative Frontend developer, excels in crafting visually stunning and highly intuitive web applications, combining a keen eye for design with robust technical expertise to deliver seamless user experiences.</p>
+                <div class="flex space-x-6 mb-8">
+                    <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-twitter text-2xl"></i></a>
+                    <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-youtube text-2xl"></i></a>
+                    <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-facebook text-2xl"></i></a>
+                    <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-instagram text-2xl"></i></a>
+                </div>
+  
+
+
+  
+
+
+
+                <button class="bg-cyan text-deep-blue px-6 py-3 rounded-full font-semibold glow-on-hover transition-all">Download CV</button>
+            </div>
+            <div class="w-1/2">
+                <img src="images/profile.png" alt="Hikma Mohammed" class="rounded-full w-80 h-80 object-cover ml-auto border-4 border-cyan shadow-lg shadow-cyan/50">
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="About" class="py-20 bg-light-blue rounded-3xl px-10 mb-20">
+            <h2 style="text-align: center;" class="text-3xl font-bold mb-8">About <span class="text-cyan">Me</span></h2>
+           
+            <div class="flex items-center">
+                <div class="w-1/3">
+                    <img src="images/profile.png" alt="About Hikma" class="rounded-full w-64 h-64 object-cover border-4 border-cyan shadow-lg shadow-cyan/50">
+                </div>
+                <div class="w-2/3">
+                    <h3 class="text-2xl font-bold mb-4">Frontend Developer</h3>
+                    <p class="text-text-gray mb-6">Hikma Mohammed, an adept Frontend developer, specializes in designing and building visually captivating and user-centric web applications, leveraging a strong foundation in web aesthetics and cutting-edge development tools to create engaging digital experiences.</p>
+                    <button class="bg-cyan text-deep-blue px-6 py-3 rounded-full font-semibold glow-on-hover transition-all">See more</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Services Section -->
+        <section id="Services" class="py-20">
+            <h2 style="text-align: center;" class="text-3xl font-bold mb-12">My <span class="text-cyan">Services</span></h2>
+            <div class="grid grid-cols-3 gap-8">
+                <div class="bg-light-blue p-8 rounded-3xl">
+                    <i class="fas fa-pencil-ruler text-cyan text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">UX-UI Designer</h3>
+                    <p class="text-text-gray mb-6">UX/UI Design: Creating engaging and intuitive user interfaces for enhanced user experience and functionality.</p>
+                    <button class="bg-cyan text-deep-blue px-6 py-3 rounded-full font-semibold glow-on-hover transition-all">Read more</button>
+                </div>
+                <div class="bg-light-blue p-8 rounded-3xl">
+                    <i class="fas fa-code text-cyan text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Web Development</h3>
+                    <p class="text-text-gray mb-6">Web Development: Crafting responsive, high-performance websites for seamless functionality.</p>
+                    <button class="bg-cyan text-deep-blue px-6 py-3 rounded-full font-semibold glow-on-hover transition-all">Read more</button>
+                </div>
+                <div class="bg-light-blue p-8 rounded-3xl">
+                    <i class="fas fa-chart-line text-cyan text-4xl mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Digital Marketing</h3>
+                    <p class="text-text-gray mb-6">Digital Marketing: Enhancing online presence with targeted strategies, SEO, and engaging content.</p>
+                    <button class="bg-cyan text-deep-blue px-6 py-3 rounded-full font-semibold glow-on-hover transition-all">Read more</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Projects Section -->
+        <section class="py-20">
+            <h2 style="text-align: center;" class="text-3xl font-bold mb-12">My <span class="text-cyan">Projects</span></h2>
+            <div class="grid grid-cols-3 gap-8">
+                <div class="relative group rounded-3xl overflow-hidden">
+                    <img src="images/6.jpg" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-cyan bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        
+                    </div>
+                </div>
+                <div class="relative group rounded-3xl overflow-hidden">
+                    <img src="images/2.jpg" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-cyan bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        
+                    </div>
+                </div>
+                <div class="relative group rounded-3xl overflow-hidden">
+                    <img src="images/3.jpg" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-cyan bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        
+                    </div>
+                </div>
+                <div class="relative group rounded-3xl overflow-hidden">
+                    <img src="images/4.jpg" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-cyan bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        
+                    </div>
+                </div>
+                <div class="relative group rounded-3xl overflow-hidden">
+                    <img src="images/5.jpg" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-cyan bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        
+                    </div>
+                </div>
+                <div class="relative group rounded-3xl overflow-hidden">
+                    <img src="images/1.jpg" alt="Project 1" class="w-full h-64 object-cover">
+                    <div class="absolute inset-0 bg-cyan bg-opacity-75 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        
+                    </div>
+                </div>
+                
+                <button style="margin-left: 70%;" class="bg-cyan text-deep-blue px-3 py-3 rounded-full font-semibold col-span-2 w-1/4 mx-auto glow-on-hover transition-all">View Project</button>
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->
+        <section style="text-align: center;" id="contacts" class="py-20">
+            <h2 class="text-3xl font-bold mb-12">Contact <span class="text-cyan">Me!</span> </h2>
+            <form class="grid grid-cols-2 gap-8">
+                <input type="text" placeholder="First Name" class="bg-light-blue p-4 rounded-lg text-white">
+                <input type="text" placeholder="Last Name" class="bg-light-blue p-4 rounded-lg text-white">
+                <input type="tel" placeholder="Mob. Number" class="bg-light-blue p-4 rounded-lg text-white">
+                <input type="email" placeholder="E-mail Address" class="bg-light-blue p-4 rounded-lg text-white">
+                <textarea placeholder="Your Message" class="bg-light-blue p-4 rounded-lg col-span-2 h-40 text-white"></textarea>
+                <button type="submit" class="bg-cyan text-deep-blue px-6 py-3 rounded-full font-semibold col-span-2 w-1/4 mx-auto glow-on-hover transition-all">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer class="py-8 text-center">
+            <div class="flex justify-center space-x-6 mb-4">
+                <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-twitter text-2xl"></i></a>
+                <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-youtube text-2xl"></i></a>
+                <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-facebook text-2xl"></i></a>
+                <a href="#" class="text-cyan hover:text-white transition-colors"><i class="fab fa-instagram text-2xl"></i></a>
+            </div>
+            <p class="text-text-gray">Copy right 2024. All right by Hikma Mohammed</p>
+        </footer>
+    </div>
+</body>
+</html>
